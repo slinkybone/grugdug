@@ -1,0 +1,128 @@
+.top_container {
+    background-color: #BACFDB;
+    display:block
+}
+
+body{
+    margin: 0px;
+    text-align:center;
+    font-family:'Averia Serif Libre', cursive;
+    background-color: #bcf5bc;
+    color:#581845;
+}
+
+h1{
+    font-size: 2rem;
+    margin:0px auto 0 auto;
+    font-family: 'Cinzel Decorative', cursive;
+    color:#C70039;
+}
+
+.underline{
+     text-decoration:underline;
+}
+
+.bottom_cloud{
+    position: absolute;
+    top:200px;
+    left:330px;
+}
+
+.top_cloud{
+    position: absolute;
+    top:35px;
+    right:350px;
+}
+
+.mountain{
+     position: relative;
+     top: 4px;
+}
+
+hr{
+    border-style: none;
+    height: 1px;
+    border-top: 3px dotted red;
+    border-width: 6px;
+    width:16%
+}
+
+a{
+    color:blue;
+}
+
+a:hover{
+     color:maroon;
+}
+
+.skill-row{
+    display: inline-block;
+    width:50%;
+    margin: 30px auto 40px auto;
+    line-height:0.5;
+    text-align: left;
+}
+
+.chilli_image{
+    width:25%;
+    float:left;
+    padding:20px;
+}
+
+.plane_image{
+    width:30%;
+    float:right;
+    padding:5px;
+}
+
+.punch_image{
+    width:30%;
+    float:left;
+    padding:10px;
+}
+
+.spiral{
+    width:28%;
+}
+
+
+.btn {
+  background: #b30000;
+  background-image: -webkit-linear-gradient(top, #b30000, #660000);
+  background-image: -moz-linear-gradient(top, #b30000, #660000);
+  background-image: -ms-linear-gradient(top, #b30000, #660000);
+  background-image: -o-linear-gradient(top, #b30000, #660000);
+  background-image: linear-gradient(to bottom, #b30000, #660000);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  margin:7px;
+}
+
+.btn:hover {
+  background: #b30000;
+  background-image: -webkit-linear-gradient(top, #b30000, #b30000);
+  background-image: -moz-linear-gradient(top, #b30000, #b30000);
+  background-image: -ms-linear-gradient(top, #b30000, #b30000);
+  background-image: -o-linear-gradient(top, #b30000, #b30000);
+  background-image: linear-gradient(to bottom, #b30000, #b30000);
+  text-decoration: none;
+}
+
+.bottom-container{
+    padding-top:40px;
+    background-color:#3f704d;
+    margin-top:20px;
+    margin-bottom:0;
+}
+
+.footer-link{
+    color:#B8E2AA;
+    padding-left:30px;
+    padding-right:30px;
+    text-decoration:none;
+}
